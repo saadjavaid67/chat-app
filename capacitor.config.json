@@ -1,0 +1,13 @@
+{
+    "appId": "com.saad.chatapp",
+    "appName": "Chat App",
+    "bundledWebRuntime": false,
+    "npmClient": "yarn",
+    "webDir": "build",
+    "plugins": {
+        "SplashScreen": {
+            "launchShowDuration": 0
+        }
+    },
+    "cordova": {}
+}
