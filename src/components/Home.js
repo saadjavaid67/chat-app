@@ -13,7 +13,7 @@ function Home(_user) {
     useEffect(() => {
         socket.off('setData')
         socket.on('setData', data => {
-            console.log(data);
+            // console.log(data);
         })
     }, [])
 
